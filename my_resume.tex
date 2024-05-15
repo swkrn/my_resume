@@ -1,0 +1,237 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-0.4in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom{}
+\raggedright{}
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{Blue}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{Blue}\titlerule{} \vspace{-2pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Siwakorn Kamondilok} \\ \vspace{5pt}
+  \small \raisebox{-0.1\height}\faPhone\ +66 83-953-6059~ \href{mailto:siwakorn.kamo@ku.th}{\raisebox{-0.2\height}\faEnvelope\  \underline{siwakorn.kamo@ku.th}} ~
+
+  \vspace{2pt}
+  \href{https://www.linkedin.com/in/swkrn/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/swkrn}}  ~
+  \href{https://github.com/swkrn}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/swkrn}}
+  \vspace{-8pt}
+\end{center}
+
+\vspace{-5pt}
+
+
+
+%-----------SUMMARY-------------
+\section{Summary}
+Passionate and skilled Computer Engineering graduate with a strong interest in software development, 
+specializing in App Development, Fullstack Development, and Software Engineering. Eager to leverage my academic background, 
+practical experience, and technical abilities to drive innovation and success in collaborative environments.
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{
+        \textbf{Languages}{: Python, Kotlin, C++, C\#, JavaScript, Golang, Dart, Swift} \\
+        \textbf{Backend}{: Node.js, Express.js, FastAPI, Gin}\\
+        \textbf{Frontend}{: React, HTML, CSS, Bootstrap} \\
+        \textbf{Clouds \& Databases}{: AWS, Cloudflare, PostgreSQL, MongoDB} \\
+        \textbf{Web Technologies}{: Docker, Socket.IO} \\
+        \textbf{Developer Tools}{: Android Studio, Xcode, Unity, VS Code, GitHub} \\
+        \textbf{Soft Skills}{: Problem Solving, Time Management, Teamwork} \\
+        }
+\end{itemize}
+\vspace{-10pt}
+
+
+
+% -----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{TISCO Financial Group}{Apr 2023~-~Jun 2023}
+{DevOps Engineer Intern}{On-site}
+
+\vspace{-3pt}
+
+\resumeItemListStart
+
+\resumeItem{Collaborate with a team of software developers and operations professionals.}
+\resumeItem{Learn about automation tools and techniques to streamline software development processes.}
+\resumeItem{Assist in setting up and maintaining infrastructure, including servers and databases.}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading{\textbf{XMS}}{}
+\resumeItemListStart
+\resumeItem{XMS is a real-time chat messaging application designed to provide users with 
+a seamless communication experience. It facilitates instant messaging between users in real-time, 
+with chat history, allowing for quick and efficient communication.}
+\resumeItem{\textbf{Technologies:} Flutter, Express, MongoDB, Socket.IO}
+\resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading{\textbf{POS-ME}}{}
+\resumeItemListStart
+\resumeItem{POS-ME is a point-of-sale system for merchants who want to save on the cost of renting or buying
+a full point-of-sale system. There is a product management system, a billing system that can scan
+product barcodes. Payment via PromptPay QR and a sales report system.}
+\resumeItem{\textbf{Technologies:} React, Express, MongoDB}
+\resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading{\textbf{Attendance Management System}}{}
+\resumeItemListStart
+\resumeItem{To limit the number of exhibition participants to prevent the spread of COVID-19 by counting the
+number of people in the event and empty seats.\@ and display information on the web in real-time.
+This can also manage events, set limits on the number of people, and view the history of events
+that have already been organized.}
+\resumeItem{\textbf{Technologies:} ESP32, React, FastAPI, MongoDB}
+\resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading{\textbf{Baby Sound Detector}}{}
+\resumeItemListStart
+\resumeItem{During nighttime or when the child's parents are in another room, 
+This device will be able to detect the child's cries and send notifications to the parents' mobile phones via Line, 
+enabling them to attend to their child's needs promptly.}
+\resumeItem{\textbf{Technologies:} NodeMCU, RaspberryPi, Python}
+\resumeItemListEnd
+\vspace{-13pt}
+
+\resumeSubHeadingListEnd
+\vspace{3pt}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Kasetsart University\textnormal{ -- Bangkok, Thailand}}
+{Jul 2020 - Apr 2024}
+{Bachelor of Engineering in Computer Engineering. (First Class Honors)}
+{3.65/4.0 GPA}
+\resumeSubHeadingListEnd
+
+\vspace{-3pt}
+
+
+
+\end{document}

@@ -3,4 +3,4 @@
 
 # But not these files...
 !.gitignore
-!.my_resume.tex
+!my_resume.tex
